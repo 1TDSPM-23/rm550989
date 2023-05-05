@@ -34,4 +34,21 @@ var nome = "Juscileu";
 if(nome != ""){
     var nome = "Robson";
 }
-console.log(nome);
+
+
+let frutas =["banana", "maça", "caju", "limao", "laranja"]
+console.log(frutas);
+console.table(frutas);
+console.log(frutas[3]);
+
+frutas.push("mamao");
+console.log(frutas);
+
+frutas.unshift("caqui");
+console.log(frutas);
+
+let indice =  frutas.indexOf("caju");
+frutas.splice(indice,1);
+console.log(frutas);
+
+frutas.forEach( ()=>{} );
